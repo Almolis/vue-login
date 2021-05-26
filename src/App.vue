@@ -1,16 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+ <LoginForm/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import LoginForm from "./components/LoginForm"
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    LoginForm
+    }
 }
 </script>
 
@@ -22,5 +22,15 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  
 }
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./assets/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  }
 </style>
